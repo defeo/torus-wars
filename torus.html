@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta encoding="utf-8">
+<title>Torus Wars</title>
+<script src="raphael-min.js"></script>
+<script src="torus.js"></script>
+<script>
+  var torus = new Torus('torus');
+  window.onload = function() {
+    torus.init();
+  };
+</script>
+<style>
+body {text-align: center}
+#torus {
+margin: 20px;
+display: inline-block;
+}
+</style>
+</head>
+<body>
+<div id="torus"></div>
+</body>
+</html>
